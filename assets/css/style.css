@@ -45,6 +45,12 @@ html, body {
 .menuitem {
     text-decoration: none;
     padding: 0px 10px 0px 10px;
+    border-right: 1px solid #eeeeee;
+}
+
+.menuitem:hover {
+    color: #fff;
+    background-color: #4aaaa5;
 }
 
 .outercontainer {
@@ -112,6 +118,10 @@ html, body {
     position: relative;
     float: left;
     margin: 0px 20px 20px 0px;
+}
+
+.portfolioitem:hover {
+    box-shadow: 10px 10px #92a5a4;
 }
 
 .portfolioitemtext {
