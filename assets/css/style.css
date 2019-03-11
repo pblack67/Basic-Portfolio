@@ -7,6 +7,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    _width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.header {
+    background-color: #fff;
     width: 960px;
     margin: 0 auto;
 }
@@ -27,12 +35,39 @@ body {
     float:right;
     text-decoration: none;
 }
+.outercontainer {
+    background-image: url("../images/morocco.png");
+    margin-top: 0px;
+    height: 100%;
+}
+
+.aboutmebox {
+    background-color: #fff;
+    width: 960px;
+    margin: 10px auto;
+    overflow: hidden;
+}
 
 .aboutme {
-    color: #4aaaa5;   
+    color: #4aaaa5;
+    padding: 30px 10px 10px 30px;
 }
 
 .mypic {
     height: 200px;
     float: left;
+}
+
+.footer {
+    clear: both;
+    margin: 0 auto;
+    background-color: gray;
+    border-top: 5px;
+    border-color: #4aaaa5
+}
+
+.mainhr {
+    clear:both;
+    margin: 0px;
+    color: #000;
 }
