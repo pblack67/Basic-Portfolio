@@ -54,7 +54,6 @@ main {
     background-image: url("../images/wov.png");
     margin-top: 0px;
     padding: 20px;
-    clear: both;
     height: 100%;
 }
 
@@ -77,7 +76,6 @@ article h1 {
 }
 
 footer {
-    clear: both;
     padding: 20px 0px 20px 0px;
     background-color: gray;
     border-top: 5px solid #cfc319ed;
