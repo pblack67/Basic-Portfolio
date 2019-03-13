@@ -24,10 +24,11 @@ body header h1 {
     padding: 20px;
     margin: 0;
     width: 180px;
-    float: left;
 }
 
 header div {
+    display: flex;
+    justify-content: space-between;
     background-color: #fff;
     width: 960px;
     margin: 0 auto;
@@ -35,7 +36,6 @@ header div {
 }
 
 header nav {
-    float:right;
     padding: 29px 0px 29px 0px;
 }
 
@@ -47,7 +47,7 @@ nav a {
 
 nav a:hover {
     color: #fff;
-    background-color: #4aaaa5;
+    background-color: #cfc319ed;
 }
 
 main {
