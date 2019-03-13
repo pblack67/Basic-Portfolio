@@ -37,12 +37,15 @@ header div {
 
 header nav {
     padding: 29px 0px 29px 0px;
+    display: flex;
+    width: 300px;
 }
 
 nav a {
     text-decoration: none;
     padding: 0px 10px 0px 10px;
     border-right: 1px solid #eeeeee;
+    flex-basis: 100px;
 }
 
 nav a:hover {
