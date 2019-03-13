@@ -80,8 +80,7 @@ footer {
     clear: both;
     padding: 20px 0px 20px 0px;
     background-color: gray;
-    border-top: 5px;
-    border-color: #cfc319;
+    border-top: 5px solid #cfc319ed;
     text-align: center;
     color: #fff;
     position: fixed;
