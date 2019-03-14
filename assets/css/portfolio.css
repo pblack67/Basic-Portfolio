@@ -12,7 +12,7 @@ article section:hover {
     box-shadow: 10px 10px 5px #92a5a4;
 }
 
-section div {
+section a {
     background-color: #cfc319;
     color: #fff;
     width: 200px;
@@ -21,4 +21,5 @@ section div {
     position: absolute;
     bottom: 15px;
     left: 0;
+    text-decoration: none;
 }
