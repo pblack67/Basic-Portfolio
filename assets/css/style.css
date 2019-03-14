@@ -30,7 +30,7 @@ header div {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -63,7 +63,7 @@ main {
 main article {
     box-sizing: border-box;
     background-color: #fff;
-    width: 960px;
+    max-width: 960px;
     margin: 0px auto;
     padding: 0px 20px 0px 20px;
     overflow: hidden;
