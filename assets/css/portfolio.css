@@ -21,5 +21,11 @@ section a {
     position: absolute;
     bottom: 15px;
     left: 0;
-    text-decoration: none;
+    text-decoration: none; 
+}
+
+section h3 {
+    margin: 0px;
+    color: #fff;
+    background-color: #cfc319;
 }
